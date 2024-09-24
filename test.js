@@ -27,5 +27,6 @@ document.getElementById('donate-btn').addEventListener('click', function(){
     
     `;
     historyContainer.appendChild(div);
+
 })
 

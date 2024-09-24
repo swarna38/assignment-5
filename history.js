@@ -3,8 +3,9 @@ const donationBtn = getInputById('donation-btn');
 const cardContainer = getInputById('card-container');
 const inputFieldEl = getInputValueById('input-field');
 console.log(inputFieldEl);
-// const inputFieldElTwo = getInputValueById('input-field-2');
-// const inputFieldElThree = getInputValueById('input-field-3');
+const historyContainer = getInputById('history-container');
+
+
 document.getElementById('history-btn').addEventListener('click', function(){
     historyBtn.classList.add('bg-primary');
     donationBtn.classList.remove('bg-primary');
