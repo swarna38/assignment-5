@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#B4F461',
+                secoundary: '#111111',
+                textGray: '#111111B3',
+                navColor: '#F9F7F3',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="bg-navColor sticky top-0">
+        <div class="navbar w-11/12 mx-auto text-xl py-6">
+            <div class="navbar-start">
+                <button id="home-btn" class="btn bg-primary px-7 py-2 ">Home</button>
+            </div>
+            <div class="navbar-center hidden lg:flex space-x-2">
+                <img src="./assets/logo.png" alt="">
+               <h2 class="text-secoundary font-semibold">Donate Bangladesh</h2>
+            </div>
+            <div class="navbar-end">
+                <img src="./assets/coin.png" alt="">
+                <span id="total-donation-amount">5500 BDT</span>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto w-11/12">
+        <div class="join join-vertical w-full">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-bold">A relentless flood engulfs the city, leaving devastation in its wake</div>
+              <div class="collapse-content">
+                <p class="text-lg ">The once bustling streets have transformed into rivers as floodwaters relentlessly rise, sweeping through homes, vehicles, and businesses. In the aftermath of days of heavy rainfall, the landscape now mirrors a chaotic scene of submerged structures and debris. Residents wade through knee-deep water, scrambling to salvage what little they can. The relentless power of nature, combined with overwhelmed drainage systems, has left neighborhoods in a state of ruin, their future uncertain as the water continues its slow, destructive advance.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-bold">A relentless flood engulfs the city, leaving devastation in its wake</div>
+              <div class="collapse-content">
+                <p class="text-lg ">The once bustling streets have transformed into rivers as floodwaters relentlessly rise, sweeping through homes, vehicles, and businesses. In the aftermath of days of heavy rainfall, the landscape now mirrors a chaotic scene of submerged structures and debris. Residents wade through knee-deep water, scrambling to salvage what little they can. The relentless power of nature, combined with overwhelmed drainage systems, has left neighborhoods in a state of ruin, their future uncertain as the water continues its slow, destructive advance.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-bold">A relentless flood engulfs the city, leaving devastation in its wake</div>
+              <div class="collapse-content">
+                <p class="text-lg ">The once bustling streets have transformed into rivers as floodwaters relentlessly rise, sweeping through homes, vehicles, and businesses. In the aftermath of days of heavy rainfall, the landscape now mirrors a chaotic scene of submerged structures and debris. Residents wade through knee-deep water, scrambling to salvage what little they can. The relentless power of nature, combined with overwhelmed drainage systems, has left neighborhoods in a state of ruin, their future uncertain as the water continues its slow, destructive advance.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-bold">A relentless flood engulfs the city, leaving devastation in its wake</div>
+              <div class="collapse-content">
+                <p class="text-lg ">The once bustling streets have transformed into rivers as floodwaters relentlessly rise, sweeping through homes, vehicles, and businesses. In the aftermath of days of heavy rainfall, the landscape now mirrors a chaotic scene of submerged structures and debris. Residents wade through knee-deep water, scrambling to salvage what little they can. The relentless power of nature, combined with overwhelmed drainage systems, has left neighborhoods in a state of ruin, their future uncertain as the water continues its slow, destructive advance.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <script src="./home.js"></script>
+</body>
+</html>
